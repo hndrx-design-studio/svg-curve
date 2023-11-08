@@ -1,0 +1,54 @@
+<?-- TOP CURVE -->
+<style>
+  /* This is the default style for larger screens */
+  .curveSvgFeature {
+    height: 2rem;
+  }
+
+  .curveSvgFeature path {
+    d: path("M0 0 Q50 20 100 0");
+  }
+
+  /* Media query for mobile devices */
+  @media (max-width: 767px) { /* This width targets devices with a maximum width of 767px, which is typical for mobile devices in portrait mode */
+    .curveSvgFeature {
+      height: 1rem;
+    }
+
+    .curveSvgFeature path {
+      d: path("M0 0 Q50 10 100 0");
+    }
+  }
+</style>
+
+<svg class="curveSvgFeature" width="100%" height="2rem" viewBox="0 0 100 20" preserveAspectRatio="none">
+    <path d="M0 0 Q50 20 100 0" fill="#4141a2" transform="rotate(180 50 10)"></path>
+</svg>
+
+<?-- BOTTOM CURVE -->
+<style>
+  /* This is the default style for larger screens */
+  .curveSvgFeature {
+    height: 2rem;
+  }
+
+  .curveSvgFeature path {
+    d: path("M0 0 Q50 20 100 0");
+  }
+
+  /* Media query for mobile devices */
+  @media (max-width: 767px) { /* This width targets devices with a maximum width of 767px, which is typical for mobile devices in portrait mode */
+    .curveSvgFeature {
+      height: 1rem;
+    }
+
+    .curveSvgFeature path {
+      d: path("M0 0 Q50 10 100 0");
+    }
+  }
+</style>
+
+
+<svg class="curveSvgFeature" width="100%" height="2rem" viewBox="0 0 100 10" preserveAspectRatio="none">
+    <path d="M0 0 Q50 20 100 0" fill="#4141a2"></path>
+</svg>
